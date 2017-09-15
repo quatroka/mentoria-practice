@@ -2,10 +2,9 @@
 from Robot import Robot
 
 print("""===============
-Move Foward: F
-Move Left: L
-Move Right: R
-Move Back: B
+Move to Foward: F
+Rotate to Left: L
+Rotate to Right: R
 ===============
 Insert the sequence of moves: """)
 

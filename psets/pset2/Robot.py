@@ -15,14 +15,12 @@ class Robot():
                 self.__move_forward()
             elif move == 'R':
                 self.__move_right()
-            elif move == 'B':
-                self.__move_back()
             else:
                 self.__move_left()
             print('Moving to: {0} {1} {2}'.format(self.get_x(), self.get_y(), self.get_face()))
 
     def __move_forward(self):
-        """ Move the robot foward """
+        """ Move the robot to foward """
         if self.__face == 'N':
             self.__y += 1
         elif self.__face == 'E':
@@ -33,7 +31,7 @@ class Robot():
             self.__x -= 1
 
     def __move_right(self):
-        """ Move the robot to right """
+        """ Rotate the robot to right """
         if self.__face == 'N':
             self.__face = 'E'
         elif self.__face == 'E':
@@ -43,19 +41,8 @@ class Robot():
         else:
             self.__face = 'N'
 
-    def __move_back(self):
-        """ Move the robot to back """
-        if self.__face == 'N':
-            self.__y -= 1
-        elif self.__face == 'E':
-            self.__x -= 1
-        elif self.__face == 'S':
-            self.__y += 1
-        else:
-            self.__x += 1
-
     def __move_left(self):
-        """ Move the robot to right """
+        """ Rotate the robot to right """
         if self.__face == 'N':
             self.__face = 'O'
         elif self.__face == 'E':
