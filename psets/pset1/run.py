@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 with open('hino.txt') as file:
     n_patria = 0
     n_brasil = 0

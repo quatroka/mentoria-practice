@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 """ Pset 2 Robot class file """
 class Robot():
     """ Class for the object Robot """
