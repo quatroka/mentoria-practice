@@ -7,4 +7,4 @@
     
     FFEFEF
 
-  - no fim ele tem que dar a posição final do robo: (-1,-1)
+  - no fim ele tem que dar a posição final do robo: (-1, 1)

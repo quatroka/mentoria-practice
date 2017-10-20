@@ -12,4 +12,4 @@ Insert the sequence of moves: """)
 
 ROBOT = Robot()
 ROBOT.read_and_execute_movement(input())
-print('\nFinal state: {0} {1} {2}'.format(ROBOT.get_x(), ROBOT.get_y(), ROBOT.get_face()))
+print('\nFinal state: {0} {1}'.format(ROBOT.x, ROBOT.y))
